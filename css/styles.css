@@ -135,7 +135,9 @@ li{
     align-items: center;
 }
 .icon-mail{
-    fill: #757575;
+    fill: currentColor;
+    margin-right: 10px;
+    align-items: center;
 }
 .mail{
     text-decoration: none;
@@ -153,6 +155,8 @@ li{
 }
 .icon-telephone{
     fill: currentColor;
+    margin-right: 10px;
+    align-items: center;
 }
 .telephone{
     text-decoration: none;
@@ -321,6 +325,11 @@ li{
     border-radius: 4%;
     fill: #afb1b8;
 }
+.client-link:hover, :focus{
+    fill: #2196F3;
+    border: #2196F3;
+}
+
 /* footer */
 .logo-footer{
     text-decoration: none;
@@ -394,7 +403,9 @@ li{
     padding: 0;
     margin: 0;
 }
-
+.social-icon{
+    fill: #FFFFFF;
+}
 .social-link{
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
