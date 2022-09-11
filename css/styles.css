@@ -325,9 +325,9 @@ li{
     border-radius: 4%;
     fill: #afb1b8;
 }
-.client-link:hover, :focus{
+.client-link:hover{
     fill: #2196F3;
-    border: #2196F3;
+    border-color: #2196F3;
 }
 
 /* footer */
