@@ -317,6 +317,21 @@ li{
     justify-content: center;
     padding: 0;
     margin: 0;
+
+}
+.social-link-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.social-link-team:hover{
+    background-color: #2196F3;
+}
+.social-link-team:focus{
+    background-color: #2196F3;
 }
 /* section 5 */
 .client-list{
@@ -342,10 +357,6 @@ li{
 .client-link:hover{
     fill: #2196F3;
     border-color: #2196F3;
-}
-.client-icon{
-    width: 106px;
-    height: 60px;
 }
 
 /* footer */
@@ -421,11 +432,10 @@ li{
     padding: 0;
     margin: 0;
 }
-.social-icon{
-    fill: #FFFFFF;
-}
 .social-link{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
 }
