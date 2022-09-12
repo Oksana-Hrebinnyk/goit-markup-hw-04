@@ -98,6 +98,9 @@ li{
 .nav-list-item-studio:hover{
     color: #2196F3;
 }
+.nav-list-item-studio:focus{
+    color: #2196F3;
+}
 .nav-list-item{
     list-style: none;
     text-decoration: none;
@@ -289,6 +292,8 @@ li{
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
 
 }
 .team-photos{
@@ -306,10 +311,19 @@ li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.social-media-link{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
 /* section 5 */
 .client-list{
     display: flex;
     gap:30px;
+    margin: 0;
+    padding: 0;
 }
 .client-list-link{
     width: 170px;
@@ -328,6 +342,10 @@ li{
 .client-link:hover{
     fill: #2196F3;
     border-color: #2196F3;
+}
+.client-icon{
+    width: 106px;
+    height: 60px;
 }
 
 /* footer */
@@ -407,16 +425,22 @@ li{
     fill: #FFFFFF;
 }
 .social-link{
-    color: #FFFFFF;
-    background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
+
     width: 44px;
     height: 44px;
+}
+
+.social-item{
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
 }
-.social-link:hover{
+.social-item:hover{
     background-color: #2196F3;
 }
 
