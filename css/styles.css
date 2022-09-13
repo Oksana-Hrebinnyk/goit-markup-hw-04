@@ -95,10 +95,7 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item-studio:hover{
-    color: #2196F3;
-}
-.nav-list-item-studio:focus{
+.nav-list-item-studio:hover,:focus{
     color: #2196F3;
 }
 .nav-list-item{
@@ -114,7 +111,7 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item:hover{
+.nav-list-item:hover,:focus{
     color: #2196F3;
 }
 .nav-list-item-portfolio{
@@ -153,9 +150,10 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.mail:hover{
+.mail:hover,:focus{
     color: #2196F3;
 }
+
 .icon-telephone{
     fill: currentColor;
     margin-right: 10px;
@@ -172,9 +170,10 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.telephone:hover{
+.telephone:hover,:focus{
     color: #2196F3;
 }
+
 /* Section 1 */
 .first-section{
     max-width: 1600px;
