@@ -95,9 +95,10 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item-studio:hover,:focus{
+.nav-list-item-studio:hover{
     color: #2196F3;
 }
+
 .nav-list-item{
     list-style: none;
     text-decoration: none;
@@ -111,7 +112,7 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item:hover,:focus{
+.nav-list-item:hover{
     color: #2196F3;
 }
 .nav-list-item-portfolio{
@@ -150,7 +151,7 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.mail:hover,:focus{
+.mail:hover{
     color: #2196F3;
 }
 
@@ -170,7 +171,7 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.telephone:hover,:focus{
+.telephone:hover{
     color: #2196F3;
 }
 
@@ -328,10 +329,9 @@ li{
 }
 .social-link-team:hover{
     background-color: #2196F3;
+    fill: #FFFFFF;
 }
-.social-link-team:focus{
-    background-color: #2196F3;
-}
+
 /* section 5 */
 .social-icon{
     fill: #AFB1B8;
@@ -452,8 +452,9 @@ li{
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
 }
-.social-item:hover, :focus{
+.social-item:hover{
     background-color: #2196F3;
+    
 }
 .social-icon-footer{
     fill: #FFFFFF;
