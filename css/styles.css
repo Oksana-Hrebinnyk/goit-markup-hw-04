@@ -95,7 +95,7 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item-studio:hover{
+.nav-list-item-studio:hover, :focus{
     color: #2196F3;
 }
 
@@ -112,7 +112,7 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item:hover{
+.nav-list-item:hover, :focus{
     color: #2196F3;
 }
 .nav-list-item-portfolio{
@@ -151,7 +151,7 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.mail:hover{
+.mail:hover, :focus{
     color: #2196F3;
 }
 
@@ -171,7 +171,7 @@ li{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.telephone:hover{
+.telephone:hover, :focus{
     color: #2196F3;
 }
 
@@ -327,9 +327,9 @@ li{
     height: 44px;
     border-radius: 50%;
 }
-.social-link-team:hover{
+.social-link-team:hover, :focus{
     background-color: #2196F3;
-    fill: #FFFFFF;
+    color: #FFFFFF;
 }
 
 /* section 5 */
@@ -454,7 +454,6 @@ li{
 }
 .social-item:hover{
     background-color: #2196F3;
-    
 }
 .social-icon-footer{
     fill: #FFFFFF;
