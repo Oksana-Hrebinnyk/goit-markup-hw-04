@@ -333,6 +333,9 @@ li{
     background-color: #2196F3;
 }
 /* section 5 */
+.social-icon{
+    fill: #AFB1B8;
+}
 .client-list{
     display: flex;
     gap:30px;
@@ -449,8 +452,11 @@ li{
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
 }
-.social-item:hover{
+.social-item:hover, :focus{
     background-color: #2196F3;
+}
+.social-icon-footer{
+    fill: #FFFFFF;
 }
 
 /* Portfolio */
