@@ -69,25 +69,12 @@ li{
     display: flex;
     gap: 50px;
 }
-.nav-list-item-studio-portfolio{
-    list-style: none;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    color: var(--main-txt-cl);
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    align-items: center;
-}
 .nav-list-item-studio{
     list-style: none;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: #2196F3;
     display: block;
@@ -95,7 +82,8 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item-studio:hover, :focus{
+.nav-list-item-studio:hover, 
+.nav-list-item-studio:focus{
     color: #2196F3;
 }
 
@@ -104,7 +92,7 @@ li{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color:var(--main-txt-cl);
     display: block;
@@ -112,21 +100,9 @@ li{
     padding-bottom: 32px;
     align-items: center;
 }
-.nav-list-item:hover, :focus{
+.nav-list-item:hover, 
+.nav-list-item:focus{
     color: #2196F3;
-}
-.nav-list-item-portfolio{
-    list-style: none;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    color: #2196F3;
-    display: block;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .header-contacts{
     display: flex;
@@ -144,14 +120,15 @@ li{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: #757575;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.mail:hover, :focus{
+.mail:hover, 
+.mail:focus{
     color: #2196F3;
 }
 
@@ -164,14 +141,15 @@ li{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: #757575;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.telephone:hover, :focus{
+.telephone:hover, 
+.telephone:focus{
     color: #2196F3;
 }
 
@@ -207,7 +185,7 @@ li{
 .main-btn{
     font-family: inherit;
     font-size: 16px;
-    line-height: calc(30/16);
+    line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
@@ -262,7 +240,7 @@ li{
 .heading-2{
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42/36);
+    line-height: calc(42 / 36);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     margin-bottom: 50px;
@@ -281,14 +259,14 @@ li{
 .staff-names{
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19/16);
+    line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     text-align: center;
     margin-bottom: 10px;
 }
 .positions{
-    line-height: calc(19/16);
+    line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
@@ -326,15 +304,17 @@ li{
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color:#AFB1B8;
 }
-.social-link-team:hover, :focus{
+.social-link-team:hover, 
+.social-link-team:focus{
     background-color: #2196F3;
     color: #FFFFFF;
 }
 
 /* section 5 */
 .social-icon{
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 .client-list{
     display: flex;
@@ -356,18 +336,22 @@ li{
     border-radius: 4%;
     fill: #afb1b8;
 }
-.client-link:hover{
+.client-link:hover, 
+.client-link:focus{
     fill: #2196F3;
     border-color: #2196F3;
 }
-
+.client-icon{
+    width: 106px;
+    height: 60px;
+}
 /* footer */
 .logo-footer{
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31/26);
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #FFFFFF;
     display: block;
@@ -381,7 +365,7 @@ li{
 .adress-footer{
     font-style: normal;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 9px;
@@ -397,7 +381,7 @@ li{
     font-style: normal;
     text-decoration: none;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;   
     color: rgba(255, 255, 255, 0.6);
 }
@@ -405,7 +389,7 @@ li{
     font-style: normal;
     text-decoration: none;
     font-size: 14px;
-    line-height: calc(14/14);
+    line-height: calc(14 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin: auto;
@@ -435,24 +419,21 @@ li{
     margin: 0;
 }
 .social-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-}
-
-.social-item{
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
+    width: 100%;
+    height: 100%;
 }
-.social-item:hover{
+.social-item{
+    width: 44px;
+    height: 44px;
+}
+.social-item:hover, 
+.social-item:focus{
     background-color: #2196F3;
 }
 .social-icon-footer{
@@ -460,7 +441,7 @@ li{
 }
 
 /* Portfolio */
-.nav-list-item-studio-portfolio:hover{
+.nav-list-item.active{
     color: #2196F3;
 }
 .portfolio-projects{
@@ -482,7 +463,7 @@ li{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(26/16);
+    line-height: calc(26 / 16);
     letter-spacing: 0.03em;
     background: #F5F4FA;
     border: none;
@@ -499,7 +480,7 @@ li{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(26/16);
+    line-height: calc(26 / 16);
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--main-txt-cl);
@@ -539,7 +520,7 @@ li{
 .projects-heading{
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(36/18);
+    line-height: calc(36 / 18);
     letter-spacing: 0.06em;
     color: var(--main-txt-cl);
     margin-bottom: 4px;
@@ -547,7 +528,7 @@ li{
 .projects-name{
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(30/16);
+    line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: #757575;
 }
