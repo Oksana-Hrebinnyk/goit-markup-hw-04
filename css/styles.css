@@ -311,11 +311,11 @@ li{
     background-color: #2196F3;
     color: #FFFFFF;
 }
-
-/* section 5 */
 .social-icon{
     fill: currentColor;
 }
+/* section 5 */
+
 .client-list{
     display: flex;
     gap:30px;
